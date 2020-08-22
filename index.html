@@ -7,51 +7,55 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+ 
     <div class="nav-bar">
         <div class="nav-logo">
-            <img src="image/logo.png">
+            <img src="image/logo.png" alt="">
         </div>
         <div class="nav-links" id="mobileMenu">
             <ul>
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>About</li></a>
-                <a href="#"><li>Services</li></a>
+                <a href="#"><li>Inicio</li></a>
+                <a href="#"><li>Nosotros</li></a>
+                <a href="#"><li>Servicios</li></a>
                 <a href="#"><li>Tienda</li></a>
-                <a href="#"><li>Contact</li></a>
+                <a href="#"><li>Contacto</li></a>
             </ul>
         </div>
         <img src="image/menu-icon.png" class="menu-icon" onclick="showMenu()">
     </div>
+
     <div class="hero">
         <h1>PREPÁRATE PARA EL DEPORTE <br> LO MEJOR DE ADIDAS</h1>
         <div class="btn">
-            <p>Hover Me</p>
-             <span></span><span></span><span></span><span></span><span></span>
+            <p>Saber más</p>
+            <span></span>
+            <span></span>
+            <span> </span>
+            <span></span>
+            <span></span>
         </div>
-        
     </div>
-
-    <!--iconos-->
 
     <div class="social-icons">
-        <img src="image/facebook.png">
-        <img src="image/instagram.png">
-        <img src="image/twitter.png">
-        <img src="image/linkedin.png">
+        <img src="image/facebook.png" alt="">
+        <img src="image/twitter.png" alt="">
+        <img src="image/instagram.png" alt="">
+        <img src="image/linkedin.png" alt="">
     </div>
+
+
+
 
     <script>
         function showMenu(){
             var toggle = document.getElementById("mobileMenu");
             if(toggle.style.height == "0px"){
-                toggle.style.height = "300px"; /*medida de la barra del menu aumenta el largo*/
+                toggle.style.height = "300px";
             }
             else{
-                toggle.style.height = "0px";
+                toggle.style.height = "0px"
             }
         }
     </script>
-
 </body>
 </html>
